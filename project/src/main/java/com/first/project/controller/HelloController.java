@@ -18,6 +18,7 @@ public class HelloController {
 
     @RequestMapping(value = "/bye", method = RequestMethod.GET)
     public ResponseEntity<?> bye(){
+
         return new ResponseEntity<>("Bye World!", HttpStatus.OK);
     }
 
